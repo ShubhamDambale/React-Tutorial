@@ -1,0 +1,211 @@
+Install NodeJS and NPM:
+Go to https://nodejs.org/en/
+Download the latest version of NodeJS LTS with Administrator privileges.
+
+Install Visual Studio Code:
+
+Go to https://code.visualstudio.com/
+Downloaded the latest version.
+Run VS Code.
+
+It should recommend installing Git. We should Skip this part for now.
+
+To Create React App 
+
+COPY
+npm install -g create-react-app
+If successful, you should be able to get version:
+
+COPY
+create-react-app --version
+Create react project:
+
+COPY
+create-react-app <projectname>
+Run project:
+
+COPY
+cd <projectname>
+npm start
+
+==================================================================================================================================================================
+                                                                            cmd Commands
+===============================================================================================================================================================
+
+Microsoft Windows [Version 10.0.19044.2846]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Shubham>node -v
+v18.3.0
+
+C:\Users\Shubham>npm -v
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+8.11.0
+
+C:\Users\Shubham>npm install -g create-react-app
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+
+added 67 packages, and audited 68 packages in 14s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+2 high severity vulnerabilities
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+npm notice
+npm notice New major version of npm available! 8.11.0 -> 9.6.4
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.6.4
+npm notice Run npm install -g npm@9.6.4 to update!
+npm notice
+
+C:\Users\Shubham>npm install -g npm@9.6.4
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+
+added 1 package, and audited 238 packages in 21s
+
+18 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\Shubham>create-react-app --version
+5.0.1
+
+C:\Users\Shubham>E;
+'E' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Shubham>E:
+
+E:\>mkdir reactthapa
+
+E:\>cd reactthapa
+
+E:\reactthapa>
+E:\reactthapa>create-react-app awesomeapp
+
+Creating a new React app in E:\reactthapa\awesomeapp.
+
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+[##################] | reify:@typescript-eslint/typescript-estree: http fetch GET 200 https://registry.npmjs.[##################] | reify:@typescript-eslint/typescript-estree: http fetch GET 200 https://registry.[##################] | reify:@typescript-eslint/typescript-estree: http fetch GET 200 https://[##################] | reify:@typescript-eslint/typescript-estree: http fetch GET 200 https://[##################] | reify:@typescript-eslint/typescript-estree: http fetch GET 200 http[##################] | reify:@typescript-eslint/typescript-estree: http fetch GET 200 https:[##################] | reify:@typescript-eslint/typescript-estree: http fetch GET 200 http[##################] | reify:@typescript-eslint/typescript-estree: http fetch GET 200 ht[##################] - reify:@babel/types: http fetch GET 200 https://registry.npmjs.o[##################] - reify:@babel/types: http fetch GET 200 https://registry.npmjs[##################] - reify:@babel/types: http fetch GET 200 https://registry.npm[##########[##################] | reify:fork-ts-checker-we[##################] | reify:fork-ts-checker-webpack-plugin: http fetc[##################] | reify:fork-ts-checker-webpa[##################] | reify:f[#########[#########[##################] | reify:fork-ts-checker-webpa[#########[##################] | reify:fork-ts-checker-webpack-plugin: http fetch GET 200 https://registry.npmjs.org/fork-ts-chec[##################] | reify:fork-ts-checker-webpack-plugin: http fetch GET 200 https://registry.npmjs.or[##################] | reify:fork-ts-checker-webpack-plugin: http fetch GET 200 https://registry.npmj[##################] | reify:fork-ts-checker-webpack-plugin: http fetch GET 200 https://registry.npmjs.org/fork[#############[#############[#############[##################] - reify:tailwindcss: [#############[##################] - reify[#############[##################] - reify[#############[##################] - reify[##################] - reify:tailwindcss: http fetch GET 200 https://r[##################] / reify:es-abstract: http fetch GET 200 https://[##################] - reify:core-js: http fetch GET 200 https://registry.npmjs.org/core-js/-/core-js-3.30.1.tgz 124649ms ([##################] \ reify:core-js: http fetch GET 200 https://re
+added 1421 packages in 5m
+
+234 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+
+added 62 packages, and changed 1 package in 30s
+
+234 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+
+removed 1 package, and audited 1483 packages in 8s
+
+234 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created awesomeapp at E:\reactthapa\awesomeapp
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd awesomeapp
+  npm start
+
+Happy hacking!
+
+E:\reactthapa> dir
+ Volume in drive E has no label.
+ Volume Serial Number is 9863-E21E
+
+ Directory of E:\reactthapa
+
+04/19/2023  02:37 PM    <DIR>          .
+04/19/2023  02:37 PM    <DIR>          ..
+04/19/2023  02:43 PM    <DIR>          awesomeapp
+               0 File(s)              0 bytes
+               3 Dir(s)  72,976,711,680 bytes free
+
+E:\reactthapa>cd awesomeapp
+
+E:\reactthapa\awesomeapp>npm start
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+
+> awesomeapp@0.1.0 start
+> react-scripts start
+√ Something is already running on port 3000.
+
+Would you like to run the app on another port instead? ... yes
+(node:13684) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:13684) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+Compiled successfully!
+
+You can now view awesomeapp in the browser.
+
+  Local:            http://localhost:64626
+  On Your Network:  http://192.168.36.72:64626
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint]
+src\index.js
+  Line 4:8:  'App' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint]
+src\index.js
+  Line 4:8:  'App' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+
+
+
