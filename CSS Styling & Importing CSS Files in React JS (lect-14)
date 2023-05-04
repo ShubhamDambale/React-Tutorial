@@ -1,0 +1,46 @@
+index.js
+=============
+import React from "react";
+import ReactDOM from "react-dom";
+import  "./index.css";
+
+
+
+const flname  = "shubham dambale"
+
+const img1 = "https://picsum.photos/200/300";
+const img2 = "https://picsum.photos/300/400";
+const img3 = "https://picsum.photos/400/500";
+
+ReactDOM.render(
+<>
+  <h1 className="namediv"> My name is {flname} </h1>
+  <img src={img1} alt="randomImages"/>
+  <img src={img2} alt="randomImages"/>
+  <img src={img3} alt="randomImages"/>
+ </>,
+  document.getElementById("root")
+)
+
+=======================
+index.css
+===================
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.namediv{
+  color: red;
+  text-align: center;
+}
