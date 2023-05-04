@@ -1,0 +1,15 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
+//  JSX Expression in React js with the help of {} curly bresses
+
+const flname  = "shubham dambale"
+
+ReactDOM.render(
+<div>
+  <h1>hello my name is {flname}</h1>
+  <h1>my Luckey number is {Math.random()}</h1>
+
+  </div>,
+  document.getElementById("root")
+)
