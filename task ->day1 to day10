@@ -1,0 +1,51 @@
+Index .js
+
+
+=========================================================================
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <h1>Hello World !!!</h1>
+// );
+
+
+ReactDOM.render(
+  // <div>
+  // <h1>Hello Shubham !!</h1>
+  // <h2>This is our first pp</h2>
+  // </div>
+
+  // [
+  // <h1>Hello Shubham !!</h1>,
+  // <h2>This is our first app</h2>
+  // ]
+  
+  <React.Fragment>
+  <h1>Hello Shubham !!</h1>
+  <h2>This is our first pp</h2>
+  </React.Fragment>,
+  document.getElementById("root")
+)
+
+
+
+// JSX Chhallemge 1
+
+ReactDOM.render(
+  <>
+    <h1>Netflix Pick</h1>
+    <p>Here is a list of my fav netflix series</p>
+
+    <ol>
+      <li>Dark</li>
+      <li>My Holo Love</li>
+      <li>Mr Robot</li>
+    </ol>
+  </>,
+  document.getElementById("root")
+)
