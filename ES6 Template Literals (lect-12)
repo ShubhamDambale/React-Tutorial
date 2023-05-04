@@ -1,0 +1,14 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
+const fname  = "shubham"
+const lname = "dambale"
+
+ReactDOM.render(
+<div>
+  <h1> {`hello my name is ${fname} ${lname}`} </h1>
+  <h1>my Luckey number is {Math.random()}</h1>
+
+  </div>,
+  document.getElementById("root")
+)
